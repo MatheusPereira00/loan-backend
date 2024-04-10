@@ -10,6 +10,6 @@ Validação de dados: garantindo a qualidade dos dados recebidos;
 Testes unitários com JUnit 5: assegurando a confiabilidade da API.
 Tecnologias utilizadas:
 
-Spring Boot 3+
-Java 21
+Spring Boot 3+ |
+Java 21 |
 JUnit 5
