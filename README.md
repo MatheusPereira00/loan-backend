@@ -43,6 +43,20 @@ API RESTful para simulação de empréstimo financeiro com ( Spring boot + Java 
 
 ---
 
+**Ideias para novas implementações**
+
+- Validação de CPF e Dados Pessoais: Implementar validação para garantir que o CPF é válido e não pertence a uma lista negra de CPFs conhecidos por fraudes.
+  
+- Histórico de Empréstimos: Manter um histórico dos empréstimos solicitados e aprovados para cada cliente.
+  
+- Cálculo de Juros e Parcelamento: Adicionar funcionalidade para calcular juros sobre o valor do empréstimo e permitir simulações de diferentes planos de parcelamento.
+
+- Notificações e Comunicações: Enviar notificações por email ou SMS sobre o status da solicitação, pagamentos próximos e outras informações relevantes.
+
+- Score de Crédito: Integrar com serviços de score de crédito para avaliar a solvência do cliente antes de aprovar o empréstimo.
+  
+---
+
 ## Como executar o projeto
 
 1. Clone este repositório: `git clone https://github.com/MatheusPereira00/loan-emprestimo-backend.git`
