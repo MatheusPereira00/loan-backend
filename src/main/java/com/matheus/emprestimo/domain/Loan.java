@@ -8,9 +8,7 @@ public class Loan {
         this.customer = customer;
     }
 
-    public boolean isPersonalLoanAvailable() {
-        return basicLoanAvailable();
-    }
+    public boolean isPersonalLoanAvailable() {return basicLoanAvailable(); }
 
     public boolean isConsigmentLoanAvailable() {
         return customer.isIncomeEqualOrGreaterThan(5000.0);

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin
+@CrossOrigin("http://localhost:64748")
 @RestController
 public class LoanController {
 
@@ -22,9 +22,7 @@ public class LoanController {
 
     @PostMapping(value = "/customer-loans")
     public ResponseEntity<CustomerLoanResponse> customerLoans(@RequestBody @Validated CustomerLoanRequest loanRequest) {
-
         var loanResponse = loanService.checkLoanAvailability(loanRequest);
-
         return ResponseEntity.ok(loanResponse);
     }
 }
